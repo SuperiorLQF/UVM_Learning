@@ -1,3 +1,31 @@
+# do sim.do
+# ** Error: (vlib-35) Failed to create directory "work".
+# 
+# File exists. (errno = EEXIST)
+# D:/Modelsim/uvm-1.1d/win64
+# D:/Modelsim/verilog_src/uvm-1.1d
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:24:05 on Sep 02,2024
+# vlog "+incdir+D:/Modelsim/verilog_src/uvm-1.1d/src" -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF D:/Modelsim/verilog_src/uvm-1.1d/src/uvm_pkg.sv -F flist.f 
+# -- Compiling package uvm_pkg (uvm-1.1d Built-in)
+# -- Compiling interface MCHDP_IF
+# -- Compiling package harness_sv_unit
+# -- Importing package uvm_pkg (uvm-1.1d Built-in)
+# -- Compiling interface MCHDP_IF
+# -- Compiling module harness
+# ** Warning: C:\Users\32863\Desktop\uvm_learning\demo\verify\env\.\mchdp_interface.sv(3): (vlog-2275) 'MCHDP_IF' already exists and will be overwritten.
+# 
+# -- Compiling interface MCHDP_IF
+# -- Compiling module MCHDP
+# 
+# Top level modules:
+# 	harness
+# End time: 00:24:06 on Sep 02,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vsim -c -do "sim.do" 
+# Start time: 00:24:06 on Sep 02,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
 # //  ModelSim SE-64 10.4 Dec  3 2014 
 # //
 # //  Copyright 1991-2014 Mentor Graphics Corporation
@@ -12,8 +40,64 @@
 # //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
 # //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
 # //
-# vsim.wlf opened as dataset "vsim"
-add wave -position insertpoint  \
-vsim:/harness/clk \
-vsim:/harness/rst_n \
-vsim:/harness/sop
+# Refreshing C:/Users/32863/Desktop/uvm_learning/demo/verify/sim/work.harness
+# Refreshing C:/Users/32863/Desktop/uvm_learning/demo/verify/sim/work.harness_sv_unit
+# Refreshing C:/Users/32863/Desktop/uvm_learning/demo/verify/sim/work.uvm_pkg
+# Loading sv_std.std
+# Loading work.uvm_pkg
+# Loading work.harness_sv_unit
+# ** Note: (vsim-8785) UVM-aware debugging capabilities will be disabled since no compiled "questa_uvm_pkg" can be found.
+# 
+# This also means that later if you turn on UVM-aware debugging your debug simulations may have
+# 
+# different random seeds from your non-debug simulations.
+# 
+# Loading work.harness
+# Refreshing C:/Users/32863/Desktop/uvm_learning/demo/verify/sim/work.MCHDP
+# Loading work.MCHDP
+# Refreshing C:/Users/32863/Desktop/uvm_learning/demo/verify/sim/work.MCHDP_IF
+# Loading work.MCHDP_IF
+# ** Warning: (vsim-8637) C:/Users/32863/Desktop/uvm_learning/demo/verify/env/.//mchdp_driver.sv(32): A modport ('mp') should not be used in a hierarchical path.
+#    Time: 0 ps  Iteration: 0  Region: /harness_sv_unit::mchdp_driver File: C:/Users/32863/Desktop/uvm_learning/demo/verify/env/.//mchdp_driver.sv
+# ** Warning: (vsim-8637) C:/Users/32863/Desktop/uvm_learning/demo/verify/env/.//mchdp_driver.sv(25): A modport ('mp') should not be used in a hierarchical path.
+#    Time: 0 ps  Iteration: 0  Region: /harness_sv_unit::mchdp_driver File: C:/Users/32863/Desktop/uvm_learning/demo/verify/env/.//mchdp_driver.sv
+# ** Warning: (vsim-3764) C:/Users/32863/Desktop/uvm_learning/demo/verify/env/.//mchdp_driver.sv(19): Stand-alone call to function 'get' treated as implicit void cast.
+#    Time: 0 ps  Iteration: 0  Region: /harness_sv_unit::mchdp_driver File: C:/Users/32863/Desktop/uvm_learning/demo/verify/env/.//mchdp_driver.sv
+# Loading D:/Modelsim/uvm-1.1d/win64/uvm_dpi.dll
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO @ 0: reporter [RNTST] Running test mchdp_driver...
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\demo\verify\env\.\/mchdp_driver.sv(38) @ 1075000: uvm_test_top [driver] sim over!
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    2
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [RNTST]     1
+# [driver]     1
+# ** Note: $finish    : D:/Modelsim/verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 1075 ns  Iteration: 99  Instance: /harness
+# End time: 00:24:09 on Sep 02,2024, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 4
