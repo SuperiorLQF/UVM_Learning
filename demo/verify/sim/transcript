@@ -1,11 +1,8 @@
 # do sim.do
-# ** Error: (vlib-35) Failed to create directory "work".
-# 
-# File exists. (errno = EEXIST)
 # D:/Modelsim/uvm-1.1d/win64
 # D:/Modelsim/verilog_src/uvm-1.1d
 # Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
-# Start time: 00:24:05 on Sep 02,2024
+# Start time: 00:39:36 on Sep 02,2024
 # vlog "+incdir+D:/Modelsim/verilog_src/uvm-1.1d/src" -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF D:/Modelsim/verilog_src/uvm-1.1d/src/uvm_pkg.sv -F flist.f 
 # -- Compiling package uvm_pkg (uvm-1.1d Built-in)
 # -- Compiling interface MCHDP_IF
@@ -20,10 +17,10 @@
 # 
 # Top level modules:
 # 	harness
-# End time: 00:24:06 on Sep 02,2024, Elapsed time: 0:00:01
+# End time: 00:39:36 on Sep 02,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # vsim -c -do "sim.do" 
-# Start time: 00:24:06 on Sep 02,2024
+# Start time: 00:39:36 on Sep 02,2024
 # ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
 # 
 # //  ModelSim SE-64 10.4 Dec  3 2014 
@@ -99,5 +96,5 @@
 # [driver]     1
 # ** Note: $finish    : D:/Modelsim/verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
 #    Time: 1075 ns  Iteration: 99  Instance: /harness
-# End time: 00:24:09 on Sep 02,2024, Elapsed time: 0:00:03
+# End time: 00:39:39 on Sep 02,2024, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 4

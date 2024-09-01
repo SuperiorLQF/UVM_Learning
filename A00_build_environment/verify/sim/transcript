@@ -1,0 +1,346 @@
+# do sim.do
+# D:/Modelsim/uvm-1.1d/win64
+# D:/Modelsim/verilog_src/uvm-1.1d
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 01:33:51 on Sep 02,2024
+# vlog "+incdir+D:/Modelsim/verilog_src/uvm-1.1d/src" -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF D:/Modelsim/verilog_src/uvm-1.1d/src/uvm_pkg.sv -F flist.f 
+# -- Compiling package uvm_pkg (uvm-1.1d Built-in)
+# -- Compiling package top_tb_sv_unit
+# -- Importing package uvm_pkg (uvm-1.1d Built-in)
+# -- Compiling module top_tb
+# -- Compiling interface my_if
+# -- Compiling module dut
+# 
+# Top level modules:
+# 	top_tb
+# End time: 01:33:51 on Sep 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -do "sim.do" 
+# Start time: 01:33:51 on Sep 02,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Refreshing C:/Users/32863/Desktop/uvm_learning/A00_build_environment/verify/sim/work.top_tb
+# Refreshing C:/Users/32863/Desktop/uvm_learning/A00_build_environment/verify/sim/work.top_tb_sv_unit
+# Refreshing C:/Users/32863/Desktop/uvm_learning/A00_build_environment/verify/sim/work.uvm_pkg
+# Loading sv_std.std
+# Loading work.uvm_pkg
+# Loading work.top_tb_sv_unit
+# ** Note: (vsim-8785) UVM-aware debugging capabilities will be disabled since no compiled "questa_uvm_pkg" can be found.
+# 
+# This also means that later if you turn on UVM-aware debugging your debug simulations may have
+# 
+# different random seeds from your non-debug simulations.
+# 
+# Loading work.top_tb
+# Refreshing C:/Users/32863/Desktop/uvm_learning/A00_build_environment/verify/sim/work.my_if
+# Loading work.my_if
+# Refreshing C:/Users/32863/Desktop/uvm_learning/A00_build_environment/verify/sim/work.dut
+# Loading work.dut
+# Loading D:/Modelsim/uvm-1.1d/win64/uvm_dpi.dll
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO @ 0: reporter [RNTST] Running test my_driver...
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(16) @ 0: uvm_test_top [my_driver info] build_phase is called
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 1300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 1500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 1700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 1900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 2100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 2300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 2500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 2700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 2900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 3100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 3300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 3500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 3700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 3900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 4100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 4300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 4500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 4700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 4900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 5100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 5300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 5500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 5700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 5900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 6100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 6300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 6500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 6700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 6900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 7100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 7300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 7500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 7700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 7900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 8100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 8300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 8500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 8700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 8900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 9100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 9300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 9500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 9700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 9900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 10100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 10300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 10500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 10700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 10900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 11100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 11300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 11500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 11700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 11900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 12100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 12300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 12500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 12700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 12900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 13100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 13300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 13500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 13700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 13900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 14100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 14300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 14500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 14700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 14900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 15100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 15300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 15500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 15700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 15900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 16100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 16300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 16500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 16700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 16900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 17100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 17300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 17500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 17700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 17900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 18100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 18300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 18500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 18700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 18900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 19100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 19300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 19500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 19700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 19900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 20100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 20300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 20500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 20700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 20900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 21100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 21300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 21500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 21700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 21900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 22100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 22300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 22500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 22700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 22900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 23100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 23300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 23500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 23700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 23900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 24100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 24300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 24500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 24700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 24900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 25100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 25300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 25500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 25700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 25900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 26100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 26300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 26500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 26700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 26900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 27100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 27300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 27500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 27700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 27900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 28100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 28300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 28500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 28700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 28900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 29100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 29300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 29500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 29700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 29900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 30100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 30300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 30500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 30700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 30900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 31100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 31300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 31500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 31700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 31900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 32100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 32300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 32500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 32700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 32900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 33100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 33300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 33500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 33700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 33900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 34100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 34300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 34500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 34700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 34900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 35100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 35300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 35500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 35700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 35900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 36100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 36300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 36500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 36700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 36900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 37100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 37300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 37500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 37700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 37900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 38100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 38300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 38500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 38700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 38900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 39100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 39300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 39500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 39700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 39900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 40100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 40300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 40500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 40700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 40900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 41100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 41300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 41500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 41700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 41900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 42100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 42300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 42500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 42700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 42900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 43100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 43300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 43500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 43700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 43900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 44100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 44300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 44500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 44700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 44900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 45100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 45300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 45500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 45700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 45900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 46100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 46300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 46500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 46700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 46900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 47100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 47300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 47500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 47700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 47900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 48100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 48300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 48500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 48700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 48900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 49100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 49300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 49500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 49700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 49900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 50100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 50300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 50500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 50700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 50900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 51100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 51300000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 51500000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 51700000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 51900000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 52100000: uvm_test_top [my_driver info] data is drived
+# UVM_INFO C:\Users\32863\Desktop\uvm_learning\A00_build_environment\verify\env\.\/my_driver.sv(30) @ 52300000: uvm_test_top [my_driver info] data is drived
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :  258
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [RNTST]     1
+# [my_driver info]   257
+# ** Note: $finish    : D:/Modelsim/verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 52500 ns  Iteration: 98  Instance: /top_tb
+# End time: 01:33:54 on Sep 02,2024, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 1

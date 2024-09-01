@@ -1,1 +1,1 @@
-./rtl/mchdp.sv
+rtl/mchdp.sv
